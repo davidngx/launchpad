@@ -1,0 +1,14 @@
+C:\Dev\Launchpad\Launchpad\bin\Debug\netcoreapp2.1\Launchpad.deps.json
+C:\Dev\Launchpad\Launchpad\bin\Debug\netcoreapp2.1\Launchpad.runtimeconfig.json
+C:\Dev\Launchpad\Launchpad\bin\Debug\netcoreapp2.1\Launchpad.runtimeconfig.dev.json
+C:\Dev\Launchpad\Launchpad\bin\Debug\netcoreapp2.1\Launchpad.dll
+C:\Dev\Launchpad\Launchpad\obj\Debug\netcoreapp2.1\Launchpad.csproj.CoreCompileInputs.cache
+C:\Dev\Launchpad\Launchpad\obj\Debug\netcoreapp2.1\Launchpad.RazorAssemblyInfo.cache
+C:\Dev\Launchpad\Launchpad\obj\Debug\netcoreapp2.1\Launchpad.RazorAssemblyInfo.cs
+C:\Dev\Launchpad\Launchpad\obj\Debug\netcoreapp2.1\Launchpad.AssemblyInfoInputs.cache
+C:\Dev\Launchpad\Launchpad\obj\Debug\netcoreapp2.1\Launchpad.AssemblyInfo.cs
+C:\Dev\Launchpad\Launchpad\obj\Debug\netcoreapp2.1\Launchpad.RazorTargetAssemblyInfo.cache
+C:\Dev\Launchpad\Launchpad\bin\Debug\netcoreapp2.1\Launchpad.pdb
+C:\Dev\Launchpad\Launchpad\obj\Debug\netcoreapp2.1\Launchpad.dll
+C:\Dev\Launchpad\Launchpad\obj\Debug\netcoreapp2.1\Launchpad.pdb
+C:\Dev\Launchpad\Launchpad\obj\Debug\netcoreapp2.1\Launchpad.csprojAssemblyReference.cache
