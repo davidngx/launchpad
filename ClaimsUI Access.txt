@@ -1,0 +1,54 @@
+﻿[2/20/20, 8:54:40 AM] Lin, Shan: Hi Shawn, do you happen to know which doc solutions test environment ClaimsUI test points at?
+[2/20/20, 8:57:53 AM] MAJOR, SHAWN: One minute, I’ll check
+[2/20/20, 8:58:18 AM] Lin, Shan: thanks
+[2/20/20, 8:58:52 AM] Lin, Shan: Btw, can I get a claims test account?
+[2/20/20, 8:59:45 AM] Lin, Shan: Claims users are external and we worry that data power will have problems with AWS urls
+[2/20/20, 9:00:16 AM] MAJOR, SHAWN: https://ete-docservices-bpm.libertyec.com/PMPubDocumentumServicesModuleWeb/sca/ClaimsListMetaWSExport
+[2/20/20, 9:00:44 AM] Lin, Shan: Got it
+[2/20/20, 9:02:55 AM] MAJOR, SHAWN: To get access to claims UI for testing yourself using your own enterprise ID, you can:
+
+Submit Request IT form 3041 (AD) for these groups:
+https://requestit.lmig.com/web/viewForm.do?form=3041
+
+gpi-Agydist-Tst-Clms-AgydClmsStatus
+gpi-Agydist-Tst-Clms-AgydGotonav
+gpi-Agydist-Tst-Clms-AgydView
+gpi-Agydist-Tst-Cust-AgydViewclaim
+[2/20/20, 9:03:58 AM] Lin, Shan: Fantastic
+[2/20/20, 9:06:11 AM] Lin, Shan: After getting these groups, all we need is go to claims webpage url and login?
+[2/20/20, 9:08:35 AM] MAJOR, SHAWN: Yes, you can either navigate to Claims UI directly, or you can go through the SafecoNow portal page.
+
+Direct (change the claim number): https://ete-claims.safeco.com/claimsui/detail?claimNumber=056309323
+
+Portal: https://perf-agent.safeco.com/MyWork/Pages/My-Work.aspx?loginmode=employee
+[2/20/20, 9:08:59 AM] MAJOR, SHAWN: You’ll be prompted to log in either way. Let me know if you have any problems after you get access.
+[2/20/20, 9:09:34 AM] Lin, Shan: Will do, thanks!
+
+
+2020-03-02
+https://ete-claims.safeco.com/claimsui/1.6.0-13/detail?claimNumber=056022091 this claim # has docs in Claim History section of the CLiamsUI screen.
+
+ClaimsUI Jira
+https://forge.lmig.com/issues/secure/RapidBoard.jspa?rapidView=8406
+ClaimsUI team
+https://forge.lmig.com/wiki/pages/viewpage.action?pageId=126007118
+
+https://perf-agent.safeco.com/sn4/ete/MyWork/Pages/My-Work.aspx?loginmode=agent
+QBETest8
+Password1
+
+Why this does not work in/outside LM?
+https://ete-getdoc.safeco.com/ACS/servlet/ACS1?command=read&version=2.3&docbaseid=024873&basepath=%2Fdctm_data%2Fpi_claims%2Fdata%2Fpi_claims%2Fencrypted_content_storage_01%2F00024873&filepath=80%2F0c%2Fb9%2F41.pdf&objectid=09024873801a61e7&cacheid=dFAEAgA%3D%3DQbkMgA%3D%3D&format=pdf&pagenum=0&signature=bzOtXVGd9oOVP44rdTiQ4Pb04xiyjhdHLF0D4D0L4o9zEkQMZJqi1MjCH37gugvz1%2FZwBrZBw%2BfdJ8NzETkZlCoy67QQCx6JMDChPj8Vcr5E890BL%2FUsNgFbgYc6AJDBcem63Hq4xCwqXXgxpmdE1n91%2FjcAAblNYKVvXggIUts%3D&servername=vxpit-eclmcs01.lmig.comACS1&mode=1&timestamp=1583191241&length=5559&mime_type=application%2Fpdf&parallel_streaming=true&expire_delta=360&LMForUser=n0117314&LMSignature=8Mm5ksGlD5UYk7m5NRQPP2APKjhcs54lwd%2FgMv6bPU3dUCo%2FDYNA2OiXM2n2WcIiTRjSvJKRcGjA%0AXodnYqHWyQ%3D%3D
+
+
+2020-03-05
+This link is tested working with the login below
+
+https://ete-claims.safeco.com/claimsui/detail?claimNumber=056022091&loginmode=agent
+Log in as QBEAgent1 Password1
+ 
+Select Chalmers.
+ 
+Open a document link from the Claim History section.
+ 
+
